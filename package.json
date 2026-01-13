@@ -1,0 +1,16 @@
+{
+  "name": "discord-relay-service",
+  "version": "1.0.0",
+  "description": "Render web service that relays messages to Discord",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
